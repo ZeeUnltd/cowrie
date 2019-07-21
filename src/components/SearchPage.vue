@@ -164,7 +164,6 @@ export default {
             : (this.showResultPage = false);
           this.loading = false;
           if (!this.images.length) {
-            console.log("empty");
             this.loading = true;
             this.errorMsg = "No result found, please try another keyword";
             this.clearSearchInput;

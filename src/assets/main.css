@@ -171,6 +171,9 @@ figure:after {
   .loader-gif {
     width: auto;
   }
+  .card .image-description {
+    margin-top: -7em
+  }
 }
 @media screen and (min-width: 1000px) {
   .grid {
